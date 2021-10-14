@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>OmidID</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/OmidID/Xamarin.Android.Glide.Transformations</projectUrl>
+    <description>Binding for https://github.com/wasabeef/glide-transformations</description>
+    <releaseNotes>Support android 11 sdk</releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags>Xamarin Xamarin.Android Glide Glide.Transformations</tags>
+    <dependencies>
+        <dependency id="Xamarin.Android.Glide" version="4.11.0" />
+    </dependencies>
+
+  </metadata>
+</package>
