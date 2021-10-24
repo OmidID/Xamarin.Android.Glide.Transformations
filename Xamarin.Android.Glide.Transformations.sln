@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Android.Glide.Transformations", "Xamarin.Android.Glide.Transformations/Xamarin.Android.Glide.Transformations.csproj", "{22E57A9A-D4AC-4B68-9B79-899330A7E5EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Android.Glide.Transformations", "Xamarin.Android.Glide.Transformations\Xamarin.Android.Glide.Transformations.csproj", "{22E57A9A-D4AC-4B68-9B79-899330A7E5EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Android.Glide.Transformations.Gpu", "Xamarin.Android.Glide.Transformations.Gpu\Xamarin.Android.Glide.Transformations.Gpu.csproj", "{A1EFC8EB-4623-4301-8658-5B8242346064}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{22E57A9A-D4AC-4B68-9B79-899330A7E5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22E57A9A-D4AC-4B68-9B79-899330A7E5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22E57A9A-D4AC-4B68-9B79-899330A7E5EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1EFC8EB-4623-4301-8658-5B8242346064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1EFC8EB-4623-4301-8658-5B8242346064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1EFC8EB-4623-4301-8658-5B8242346064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1EFC8EB-4623-4301-8658-5B8242346064}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

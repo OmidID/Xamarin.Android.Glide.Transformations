@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package >
   <metadata>
-    <id>Xamarin.Android.Glide.Transformations</id>
-    <version>4.3.0.0</version>
-    <title>Xamarin.Android.Glide.Transformations</title>
+    <id>Xamarin.Android.Glide.Transformations.Gpu</id>
+    <version>2.1.0.0</version>
+    <title>Xamarin.Android.Glide.Transformations.Gpu</title>
     <authors>OmidID</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
@@ -12,9 +12,10 @@
     <releaseNotes>Support android 11 sdk</releaseNotes>
     <copyright>Copyright OmidID</copyright>
     <tags>Xamarin Xamarin.Android Glide Glide.Transformations</tags>
-    <dependencies>
-        <dependency id="Xamarin.Android.Glide" version="4.11.0" />
-    </dependencies>
 
+     <dependencies>
+        <dependency id="Xamarin.Android.Glide" version="4.11.0" />
+        <dependency id="Xamarin.Android.Glide.Transformations" version="4.3.0" />
+    </dependencies>
   </metadata>
 </package>

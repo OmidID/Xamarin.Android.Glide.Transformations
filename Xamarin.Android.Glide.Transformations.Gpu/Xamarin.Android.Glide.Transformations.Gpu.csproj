@@ -5,13 +5,13 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{22E57A9A-D4AC-4B68-9B79-899330A7E5EB}</ProjectGuid>
+    <ProjectGuid>{A1EFC8EB-4623-4301-8658-5B8242346064}</ProjectGuid>
     <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Xamarin.Android.Glide.Transformations</RootNamespace>
-    <AssemblyName>Xamarin.Android.Glide.Transformations</AssemblyName>
+    <RootNamespace>Xamarin.Android.Glide.Transformations.Gpu</RootNamespace>
+    <AssemblyName>Xamarin.Android.Glide.Transformations.Gpu</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <Deterministic>True</Deterministic>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
@@ -48,8 +48,8 @@
   <ItemGroup>
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
-    <LibraryProjectZip Include="Jars\glide-transformations-4.3.0.aar" />
-    <None Include="Xamarin.Android.Glide.Transformations.nuspec" />
+    <LibraryProjectZip Include="Jars\gpuimage-2.1.0.aar" />
+    <None Include="Xamarin.Android.Glide.Transformations.Gpu.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\Metadata.xml" />
